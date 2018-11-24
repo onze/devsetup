@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xbel>
+<xbel folded="no" xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks" xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info" xmlns:kdepriv="http://www.kde.org/kdepriv" dbusName="konqueror" toolbar="yes">
+ <bookmark href="file:///media/">
+  <title>media</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="inode-directory"/>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="file:///media/data">
+  <title>data</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="inode-directory"/>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="file:///media/datassd0">
+  <title>datassd0</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="inode-directory"/>
+   </metadata>
+  </info>
+  <desc></desc>
+ </bookmark>
+ <bookmark href="file:///media/data/dl">
+  <title>dl</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="arrow-down-double"/>
+   </metadata>
+  </info>
+  <desc/>
+ </bookmark>
+ <folder folded="no">
+  <title>cpp</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="bookmark_folder"/>
+   </metadata>
+  </info>
+  <bookmark href="file:///media/datassd0/projects/agnostat/GraphLib">
+   <title>GraphLib</title>
+   <info>
+    <metadata owner="http://freedesktop.org">
+     <bookmark:icon name="inode-directory"/>
+    </metadata>
+   </info>
+   <desc></desc>
+  </bookmark>
+  <bookmark href="file:///media/datassd0/projects/agnostat/browser">
+   <title>CodeBrowser</title>
+   <info>
+    <metadata owner="http://freedesktop.org">
+     <bookmark:icon name="inode-directory"/>
+    </metadata>
+   </info>
+   <desc></desc>
+  </bookmark>
+  <bookmark href="file:///media/data/cpp/">
+   <title>cpp</title>
+   <info>
+    <metadata owner="http://freedesktop.org">
+     <bookmark:icon name="inode-directory"/>
+    </metadata>
+   </info>
+  </bookmark>
+ </folder>
+ <folder folded="no">
+  <title>python</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="bookmark_folder"/>
+   </metadata>
+  </info>
+  <bookmark href="file:///media/data/python/1412/graph/python/graphlib">
+   <title>graphlib</title>
+   <info>
+    <metadata owner="http://freedesktop.org">
+     <bookmark:icon name="inode-directory"/>
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark href="file:///media/data/python/1412/graph/python/graph_server">
+   <title>graph_server</title>
+   <info>
+    <metadata owner="http://freedesktop.org">
+     <bookmark:icon name="inode-directory"/>
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark href="file:///media/data/python/2016/imageCompression">
+   <title>iclib</title>
+   <info>
+    <metadata owner="http://freedesktop.org">
+     <bookmark:icon name="inode-directory"/>
+    </metadata>
+   </info>
+   <desc/>
+  </bookmark>
+ </folder>
+ <bookmark href="file:///media/win">
+  <title>win</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="inode-directory"/>
+   </metadata>
+  </info>
+  <desc/>
+ </bookmark>
+ <bookmark href="file:///media/data/tmp_persistent">
+  <title>tmp_persistent</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="inode-directory"/>
+   </metadata>
+  </info>
+ </bookmark>
+ <bookmark href="file:///media/data/agnostat">
+  <title>agnostat</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="inode-directory"/>
+   </metadata>
+  </info>
+ </bookmark>
+</xbel>
