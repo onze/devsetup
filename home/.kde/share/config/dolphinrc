@@ -1,0 +1,13 @@
+[DetailsMode]
+PreviewSize=16
+
+[General]
+BrowseThroughArchives=true
+ConfirmClosingMultipleTabs=false
+
+[IconsMode]
+PreviewSize=80
+
+[ViewPropertiesDialog]
+Height 1050=454
+Width 1680=365

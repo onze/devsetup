@@ -1,0 +1,434 @@
+[CodeGeneration]
+LastSelectedLicense=11
+LowerCaseFilenames=true
+
+[Compilers]
+number=0
+
+[Desktop Entry]
+DefaultProfile=Shell.profile
+
+[DownloadDialog Settings]
+Height 1050=400
+Width 1680=700
+
+[External Scripts]
+firstUse=false
+
+[External Scripts][script 0]
+command=g++ -o %b %f && ./%b
+errorMode=0
+filterMode=0
+inputMode=0
+name=Quick Compile
+outputMode=0
+saveMode=0
+shortcuts=
+showOutput=true
+
+[External Scripts][script 1]
+command=xdg-open "http://www.google.de/search?q=%s"
+errorMode=0
+filterMode=0
+inputMode=0
+name=Google Selection
+outputMode=0
+saveMode=0
+shortcuts=
+showOutput=false
+
+[External Scripts][script 2]
+command=sort
+errorMode=0
+filterMode=0
+inputMode=2
+name=Sort Selection
+outputMode=3
+saveMode=0
+shortcuts=
+showOutput=false
+
+[Favorite Profiles]
+Favorites=
+
+[KFileDialog Settings]
+Height 1050=505
+Recent Files[$e]=/media/data/cpp/1412/CodeBrowser,/usr/include/x86_64-linux-gnu/qt5/QtWidgets,/usr/include/x86_64-linux-gnu/qt5/QtSql,/usr/include/x86_64-linux-gnu/qt5/QtScriptTools,/usr/include/x86_64-linux-gnu/qt5/QtScript,/usr/include/x86_64-linux-gnu/qt5/QtQuickWidgets,/usr/include/x86_64-linux-gnu/qt5/QtQuickTest,/usr/include/x86_64-linux-gnu/qt5/QtPlatformHeaders,/usr/include/x86_64-linux-gnu/qt5/QtQuick,/usr/include/x86_64-linux-gnu/qt5/QtQml,/usr/include/x86_64-linux-gnu/qt5/QtOpenGLExtensions,/usr/include/x86_64-linux-gnu/qt5/QtOpenGL,/usr/include/x86_64-linux-gnu/qt5/QtNetwork,/usr/include/x86_64-linux-gnu/qt5/QtDBus,/usr/include/x86_64-linux-gnu/qt5
+Recent URLs[$e]=/media/data/python/1412/graph/cpp/GraphLib/,/usr/include/x86_64-linux-gnu/qt5/QtXml/,/media/data/cpp/1412/CodeBrowser/,/media/data/python/1412/graph/python/graph_server/
+Width 1680=840
+
+[Kate Document Defaults]
+Allow End of Line Detection=true
+Allow Simple Mode=true
+BOM=false
+Backup Flags=0
+Backup Prefix=
+Backup Suffix=~
+Encoding=UTF-8
+End of Line=0
+Indent On Backspace=true
+Indent On Tab=true
+Indent On Text Paste=false
+Indentation Mode=normal
+Indentation Width=4
+Keep Extra Spaces=false
+Line Length Limit=4096
+Newline At EOF=false
+No sync=false
+On-The-Fly Spellcheck=false
+Overwrite Mode=false
+PageUp/PageDown Moves Cursor=false
+Remove Spaces=0
+ReplaceTabsDyn=true
+Search Dir Config Depth=9
+Show Spaces=false
+Show Tabs=true
+Smart Home=true
+Tab Handling=1
+Tab Width=4
+Word Wrap=false
+Word Wrap Column=80
+
+[Kate Part Defaults]
+Encoding Prober Type=1
+Fallback Encoding=ISO-8859-15
+
+[Kate Renderer Defaults]
+Animate Bracket Matching=false
+Schema=Normal
+Show Indentation Lines=true
+Show Whole Bracket Expression=false
+Word Wrap Marker=false
+
+[Kate Vi Input Mode Settings]
+Command Mode Mapping Keys=
+Command Mode Mappings=
+Command Mode Mappings Recursion=
+Insert Mode Mapping Keys=
+Insert Mode Mappings=
+Insert Mode Mappings Recursion=
+Macro Completions=
+Macro Contents=
+Macro Registers=
+Normal Mode Mapping Keys=
+Normal Mode Mappings=
+Normal Mode Mappings Recursion=
+Visual Mode Mapping Keys=
+Visual Mode Mappings=
+Visual Mode Mappings Recursion=
+
+[Kate View Defaults]
+Allow Mark Menu=true
+Auto Center Lines=0
+Auto Completion=true
+Bookmark Menu Sorting=0
+Default Mark Type=1
+Dynamic Word Wrap=true
+Dynamic Word Wrap Align Indent=80
+Dynamic Word Wrap Indicators=1
+Fold First Line=false
+Folding Bar=true
+Keyword Completion=true
+Line Modification=true
+Line Numbers=true
+Maximum Search History Size=100
+Persistent Selection=false
+Replacement Text History=
+Scroll Bar Marks=true
+Scroll Bar Mini Map=true
+Scroll Bar Mini Map All=false
+Scroll Bar Mini Map Width=60
+Scroll Past End=false
+Search Pattern History=
+Search/Replace Flags=140
+Show Scrollbars=0
+Smart Copy Cut=false
+Vi Input Mode=false
+Vi Input Mode Emulate Command Bar=false
+Vi Input Mode Steal Keys=false
+Vi Relative Line Numbers=false
+Word Completion=true
+Word Completion Minimal Word Length=3
+Word Completion Remove Tail=true
+
+[KatePart Settings]
+documents=/media/data/cpp/1412/CodeBrowser/mainwindow.h,/media/data/cpp/1412/CodeBrowser/build/ui_qgraphexplorer.h,/media/data/python/1412/graph/cpp/GraphLib/utils/jsonutils.cpp,/media/data/cpp/1412/CodeBrowser/graphlibwrappers/qgraphwrapper.h,/media/data/cpp/1412/CodeBrowser/mainwindow.cpp,/qobjectdefs.h,/media/data/python/1412/graph/cpp/GraphLib/backends/rexsterrestbackend/rexsterrestbackend.cpp,/media/data/cpp/1412/CodeBrowser/ui/widgets/graphexplorer/qgraphexplorer.cpp,/media/data/python/1412/graph/cpp/GraphLib/backends/gremlinserverbackend/gremlinserverbackend.cpp,/media/data/python/1412/graph/cpp/GraphLib/representationbuilder/contextualrepresentationbuilder/contextualrepresentationbuilder.cpp,/media/data/python/1412/graph/cpp/GraphLib/backends/rexsterrestbackend/rexsterrestquery.h,/media/data/python/1412/graph/cpp/GraphLib/backends/gremlinserverbackend/gremlinserverquery.cpp,/media/data/python/1412/graph/cpp/GraphLib/backends/rexsterrestbackend/rexsterrestquery.cpp,/media/data/cpp/1412/CodeBrowser/ui/widgets/graphexplorer/qgraphexplorer.h,/media/data/python/1412/graph/cpp/GraphLib/backends/gremlinserverbackend/gremlinserverquery.h,/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h,/media/data/python/1412/graph/cpp/GraphLib/graphserverconnection.cpp,/media/data/python/1412/graph/cpp/GraphLib/backends/backend.h,/media/data/python/1412/graph/cpp/GraphLib/backends/gremlinserverbackend/gremlinserverbackend.h
+
+[KatePart Settings][/media/data/cpp/1412/CodeBrowser/build/ui_qgraphexplorer.h]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=C++
+Indentation Mode=cstyle
+Mode=C++
+
+[KatePart Settings][/media/data/cpp/1412/CodeBrowser/graphlibwrappers/qgraphwrapper.h]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=C++
+Indentation Mode=cstyle
+Mode=C++
+
+[KatePart Settings][/media/data/cpp/1412/CodeBrowser/mainwindow.cpp]
+Bookmarks=222,143
+Encoding=UTF-8
+Highlighting=C++
+Indentation Mode=cstyle
+Mode=C++
+
+[KatePart Settings][/media/data/cpp/1412/CodeBrowser/mainwindow.h]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=C++
+Indentation Mode=cstyle
+Mode=C++
+
+[KatePart Settings][/media/data/cpp/1412/CodeBrowser/ui/widgets/graphexplorer/qgraphexplorer.cpp]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=C++
+Indentation Mode=cstyle
+Mode=C++
+
+[KatePart Settings][/media/data/cpp/1412/CodeBrowser/ui/widgets/graphexplorer/qgraphexplorer.h]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=C++
+Indentation Mode=cstyle
+Mode=C++
+
+[KatePart Settings][/media/data/python/1412/graph/cpp/GraphLib/backends/backend.h]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=C++
+Indentation Mode=cstyle
+Mode=C++
+
+[KatePart Settings][/media/data/python/1412/graph/cpp/GraphLib/backends/gremlinserverbackend/gremlinserverbackend.cpp]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=C++
+Indentation Mode=cstyle
+Mode=C++
+
+[KatePart Settings][/media/data/python/1412/graph/cpp/GraphLib/backends/gremlinserverbackend/gremlinserverbackend.h]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=C++
+Indentation Mode=cstyle
+Mode=C++
+
+[KatePart Settings][/media/data/python/1412/graph/cpp/GraphLib/backends/gremlinserverbackend/gremlinserverquery.cpp]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=C++
+Indentation Mode=cstyle
+Mode=C++
+
+[KatePart Settings][/media/data/python/1412/graph/cpp/GraphLib/backends/gremlinserverbackend/gremlinserverquery.h]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=C++
+Indentation Mode=cstyle
+Mode=C++
+
+[KatePart Settings][/media/data/python/1412/graph/cpp/GraphLib/backends/rexsterrestbackend/rexsterrestbackend.cpp]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=C++
+Indentation Mode=cstyle
+Mode=C++
+
+[KatePart Settings][/media/data/python/1412/graph/cpp/GraphLib/backends/rexsterrestbackend/rexsterrestquery.cpp]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=C++
+Indentation Mode=cstyle
+Mode=C++
+
+[KatePart Settings][/media/data/python/1412/graph/cpp/GraphLib/backends/rexsterrestbackend/rexsterrestquery.h]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=C++
+Indentation Mode=cstyle
+Mode=C++
+
+[KatePart Settings][/media/data/python/1412/graph/cpp/GraphLib/graphserverconnection.cpp]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=C++
+Indentation Mode=cstyle
+Mode=C++
+
+[KatePart Settings][/media/data/python/1412/graph/cpp/GraphLib/representationbuilder/contextualrepresentationbuilder/contextualrepresentationbuilder.cpp]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=C++
+Indentation Mode=cstyle
+Mode=C++
+
+[KatePart Settings][/media/data/python/1412/graph/cpp/GraphLib/utils/jsonutils.cpp]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=C++
+Indentation Mode=cstyle
+Mode=C++
+
+[KatePart Settings][/qobjectdefs.h]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=C++
+Indentation Mode=cstyle
+Mode=C++
+
+[KatePart Settings][/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=C++
+Indentation Mode=cstyle
+Mode=C++
+
+[Main Window]
+Desktop 1680 1050=1680,29,1680,1021
+
+[MainWindow]
+Height 1050=1021
+State=AAAA/wAAAAD9AAAAAgAAAAAAAAFRAAADofwCAAAAA/sAAAAgAEYAaQBsAGUAcwB5AHMAdABlAG0AXwBkAGUAYgB1AGcBAAAAQAAAA5kAAAAAAAAAAPsAAAAcAFAAcgBvAGoAZQBjAHQAcwBfAGQAZQBiAHUAZwEAAABAAAADoQAAAAAAAAAA+wAAABoAUAByAG8AagBlAGMAdABzAF8AYwBvAGQAZQEAAABAAAADoQAAAWMBAAADAAAAAwAABQYAAAEx/AEAAAAO+wAAACQAQwBvAGQAZQAgAEIAcgBvAHcAcwBlAHIAXwBkAGUAYgB1AGcBAAABZgAABQ4AAAAAAAAAAPsAAAAiAEMAbwBkAGUAIABCAHIAbwB3AHMAZQByAF8AYwBvAGQAZQAAAAFuAAAFBgAAAGIBAAAD+wAAABoAUAByAG8AYgBsAGUAbQBzAF8AYwBvAGQAZQEAAAFuAAAFBgAAAAAAAAAA+wAAADQARgBpAG4AZAAvAFIAZQBwAGwAYQBjAGUAIABpAG4AIABGAGkAbABlAHMAXwBjAG8AZABlAAAAAW4AAAUGAAABhgEAAAP7AAAAEgBHAEQAQgBfAGQAZQBiAHUAZwEAAAFuAAAFBgAAAAAAAAAA+wAAABYARABlAGIAdQBnAF8AZABlAGIAdQBnAQAAAW4AAAUGAAAAAAAAAAD7AAAAIgBGAHIAYQBtAGUAIABTAHQAYQBjAGsAXwBkAGUAYgB1AGcBAAAAHAAABlgAAAAAAAAAAPsAAAAeAFYAYQByAGkAYQBiAGwAZQBzAF8AZABlAGIAdQBnAQAAABwAAAZYAAAAAAAAAAD7AAAAFgBCAHUAaQBsAGQAXwBkAGUAYgB1AGcBAAAAHAAABlgAAAAAAAAAAPsAAAASAFIAdQBuAF8AZABlAGIAdQBnAQAAABwAAAZYAAAAAAAAAAD7AAAANgBGAGkAbgBkAC8AUgBlAHAAbABhAGMAZQAgAGkAbgAgAEYAaQBsAGUAcwBfAGQAZQBiAHUAZwEAAAAcAAAGWAAAAAAAAAAA+wAAABQARABlAGIAdQBnAF8AYwBvAGQAZQEAAAFuAAAFBgAAAAAAAAAA+wAAABAAUgB1AG4AXwBjAG8AZABlAQAAAW4AAAUGAAAAAAAAAAD7AAAAFABCAHUAaQBsAGQAXwBjAG8AZABlAQAAAW4AAAUGAAAAbAEAAAMAAAUGAAACbwAAAAQAAAAEAAAAAQAAAAj8AAAABAAAAAAAAAABAAAAHgBMAGUAZgB0ACAAQgB1AHQAdABvAG4AIABCAGEAcgMAAAAA/////wAAAAAAAAAAAAAAAQAAAAEAAAAgAFIAaQBnAGgAdAAgAEIAdQB0AHQAbwBuACAAQgBhAHIDAAAAAP////8AAAAAAAAAAAAAAAIAAAAEAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAAAAABgAZABlAGIAdQBnAFQAbwBvAGwAQgBhAHIAAAACP/////8AAAAAAAAAAAAAACAAcQB1AGkAYwBrAE8AcABlAG4AVABvAG8AbABCAGEAcgEAAAKt/////wAAAAAAAAAAAAAALABLAEQAZQB2AEMAbwBkAGUAYgByAG8AdwBzAGUAcgBUAG8AbwBsAEIAYQByAQAAA5X/////AAAAAAAAAAAAAAADAAAAAQAAACIAQgBvAHQAdABvAG0AIABCAHUAdAB0AG8AbgAgAEIAYQByAQAAAAD/////AAAAAAAAAAA=
+ToolBarsMovable=Disabled
+Width 1680=1680
+
+[MainWindow_code]
+Height 1050=1021
+State=AAAA/wAAAAD9AAAAAgAAAAAAAAFRAAADofwCAAAAA/sAAAAgAEYAaQBsAGUAcwB5AHMAdABlAG0AXwBkAGUAYgB1AGcBAAAAQAAAA5kAAAAAAAAAAPsAAAAcAFAAcgBvAGoAZQBjAHQAcwBfAGQAZQBiAHUAZwEAAABAAAADoQAAAAAAAAAA+wAAABoAUAByAG8AagBlAGMAdABzAF8AYwBvAGQAZQEAAABAAAADoQAAAWMBAAADAAAAAwAABQYAAAEx/AEAAAAO+wAAACQAQwBvAGQAZQAgAEIAcgBvAHcAcwBlAHIAXwBkAGUAYgB1AGcBAAABZgAABQ4AAAAAAAAAAPsAAAAiAEMAbwBkAGUAIABCAHIAbwB3AHMAZQByAF8AYwBvAGQAZQAAAAFuAAAFBgAAAGIBAAAD+wAAABoAUAByAG8AYgBsAGUAbQBzAF8AYwBvAGQAZQEAAAFuAAAFBgAAAAAAAAAA+wAAADQARgBpAG4AZAAvAFIAZQBwAGwAYQBjAGUAIABpAG4AIABGAGkAbABlAHMAXwBjAG8AZABlAAAAAW4AAAUGAAABhgEAAAP7AAAAEgBHAEQAQgBfAGQAZQBiAHUAZwEAAAFuAAAFBgAAAAAAAAAA+wAAABYARABlAGIAdQBnAF8AZABlAGIAdQBnAQAAAW4AAAUGAAAAAAAAAAD7AAAAIgBGAHIAYQBtAGUAIABTAHQAYQBjAGsAXwBkAGUAYgB1AGcBAAAAHAAABlgAAAAAAAAAAPsAAAAeAFYAYQByAGkAYQBiAGwAZQBzAF8AZABlAGIAdQBnAQAAABwAAAZYAAAAAAAAAAD7AAAAFgBCAHUAaQBsAGQAXwBkAGUAYgB1AGcBAAAAHAAABlgAAAAAAAAAAPsAAAASAFIAdQBuAF8AZABlAGIAdQBnAQAAABwAAAZYAAAAAAAAAAD7AAAANgBGAGkAbgBkAC8AUgBlAHAAbABhAGMAZQAgAGkAbgAgAEYAaQBsAGUAcwBfAGQAZQBiAHUAZwEAAAAcAAAGWAAAAAAAAAAA+wAAABQARABlAGIAdQBnAF8AYwBvAGQAZQEAAAFuAAAFBgAAAAAAAAAA+wAAABAAUgB1AG4AXwBjAG8AZABlAQAAAW4AAAUGAAAAAAAAAAD7AAAAFABCAHUAaQBsAGQAXwBjAG8AZABlAQAAAW4AAAUGAAAAbAEAAAMAAAUGAAACbwAAAAQAAAAEAAAAAQAAAAj8AAAABAAAAAAAAAABAAAAHgBMAGUAZgB0ACAAQgB1AHQAdABvAG4AIABCAGEAcgMAAAAA/////wAAAAAAAAAAAAAAAQAAAAEAAAAgAFIAaQBnAGgAdAAgAEIAdQB0AHQAbwBuACAAQgBhAHIDAAAAAP////8AAAAAAAAAAAAAAAIAAAAEAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAAAAABgAZABlAGIAdQBnAFQAbwBvAGwAQgBhAHIAAAACP/////8AAAAAAAAAAAAAACAAcQB1AGkAYwBrAE8AcABlAG4AVABvAG8AbABCAGEAcgEAAAKt/////wAAAAAAAAAAAAAALABLAEQAZQB2AEMAbwBkAGUAYgByAG8AdwBzAGUAcgBUAG8AbwBsAEIAYQByAQAAA5X/////AAAAAAAAAAAAAAADAAAAAQAAACIAQgBvAHQAdABvAG0AIABCAHUAdAB0AG8AbgAgAEIAYQByAQAAAAD/////AAAAAAAAAAA=
+Width 1680=1680
+debugToolBarVisibility=false
+
+[MainWindow_debug]
+Height 1050=1051
+State=AAAA/wAAAAD9AAAAAgAAAAAAAAFRAAADofwCAAAAA/sAAAAgAEYAaQBsAGUAcwB5AHMAdABlAG0AXwBkAGUAYgB1AGcBAAAAQAAAA5kAAAAAAAAAAPsAAAAaAFAAcgBvAGoAZQBjAHQAcwBfAGMAbwBkAGUBAAAAQAAAA6EAAAAAAAAAAPsAAAAcAFAAcgBvAGoAZQBjAHQAcwBfAGQAZQBiAHUAZwEAAABAAAADoQAAAAAAAAAAAAAAAwAABlgAAAEx/AEAAAAO+wAAACQAQwBvAGQAZQAgAEIAcgBvAHcAcwBlAHIAXwBkAGUAYgB1AGcBAAABZgAABQ4AAAAAAAAAAPsAAAAiAEMAbwBkAGUAIABCAHIAbwB3AHMAZQByAF8AYwBvAGQAZQAAAAFuAAAFBgAAAAAAAAAA+wAAABoAUAByAG8AYgBsAGUAbQBzAF8AYwBvAGQAZQEAAAFuAAAFBgAAAAAAAAAA+wAAADQARgBpAG4AZAAvAFIAZQBwAGwAYQBjAGUAIABpAG4AIABGAGkAbABlAHMAXwBjAG8AZABlAAAAAW4AAAUGAAAAAAAAAAD7AAAAEgBHAEQAQgBfAGQAZQBiAHUAZwEAAAFuAAAFBgAAAAAAAAAA+wAAABAAUgB1AG4AXwBjAG8AZABlAQAAAW4AAAUGAAAAAAAAAAD7AAAAFABEAGUAYgB1AGcAXwBjAG8AZABlAQAAAW4AAAUGAAAAAAAAAAD7AAAAFABCAHUAaQBsAGQAXwBjAG8AZABlAQAAAW4AAAUGAAAAAAAAAAD7AAAAFgBEAGUAYgB1AGcAXwBkAGUAYgB1AGcBAAABbgAABQYAAAAAAAAAAPsAAAAiAEYAcgBhAG0AZQAgAFMAdABhAGMAawBfAGQAZQBiAHUAZwEAAAAcAAAGWAAAAAAAAAAA+wAAAB4AVgBhAHIAaQBhAGIAbABlAHMAXwBkAGUAYgB1AGcBAAAAHAAABlgAAAAAAAAAAPsAAAAWAEIAdQBpAGwAZABfAGQAZQBiAHUAZwEAAAAcAAAGWAAAAAAAAAAA+wAAABIAUgB1AG4AXwBkAGUAYgB1AGcBAAAAHAAABlgAAAAAAAAAAPsAAAA2AEYAaQBuAGQALwBSAGUAcABsAGEAYwBlACAAaQBuACAARgBpAGwAZQBzAF8AZABlAGIAdQBnAQAAABwAAAZYAAABhgEAAAMAAAZYAAACbwAAAAQAAAAEAAAAAQAAAAj8AAAABAAAAAAAAAABAAAAHgBMAGUAZgB0ACAAQgB1AHQAdABvAG4AIABCAGEAcgMAAAAA/////wAAAAAAAAAAAAAAAQAAAAEAAAAgAFIAaQBnAGgAdAAgAEIAdQB0AHQAbwBuACAAQgBhAHIDAAAAAP////8AAAAAAAAAAAAAAAIAAAAEAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAAAAABgAZABlAGIAdQBnAFQAbwBvAGwAQgBhAHIBAAACP/////8AAAAAAAAAAAAAACAAcQB1AGkAYwBrAE8AcABlAG4AVABvAG8AbABCAGEAcgEAAAPL/////wAAAAAAAAAAAAAALABLAEQAZQB2AEMAbwBkAGUAYgByAG8AdwBzAGUAcgBUAG8AbwBsAEIAYQByAQAABLP/////AAAAAAAAAAAAAAADAAAAAQAAACIAQgBvAHQAdABvAG0AIABCAHUAdAB0AG8AbgAgAEIAYQByAQAAAAD/////AAAAAAAAAAA=
+Width 1680=1681
+debugToolBarVisibility=true
+
+[Notification Messages]
+AskOpenWithTextEditor=true
+DoNotShowAgainContinueSearchDialog=true
+OpenWith-inode/directory=true
+kate_ignore_modonhd=false
+
+[Open File]
+Last Open File Directory=file:///
+
+[Open With Defaults]
+application/x-designer=designer-qt4.desktop
+inode/directory=kde4-kfmclient_dir.desktop
+
+[Project Manager]
+Projects Base Directory=file:///media/data/cpp
+
+[QtHelp Documentation]
+ghnsList=1
+iconList=documentation
+loadQtDocs=true
+nameList=STL API Documentation
+pathList=/home/onze/.kde/share/apps/kdevelop-qthelp//libstdc++-v3.qch
+searchDir=
+
+[QuickOpen]
+SelectedItems=Files,Functions,Documentation,Classes
+SelectedScopes=Currently Open,Project,Includers
+
+[Recent Files]
+File1[$e]=/media/data/python/1412/graph/cpp/GraphLib/representationbuilder/contextualrepresentationbuilder/contextualrepresentationbuilder.h
+File10[$e]=/qobjectdefs.h
+File2[$e]=/media/data/python/1412/graph/cpp/GraphLib/backends/gremlinserverbackend/gremlinserverbackend.cpp
+File3[$e]=/media/data/cpp/1412/CodeBrowser/mainwindow.cpp
+File4[$e]=/media/data/cpp/1412/CodeBrowser/mainwindow.h
+File5[$e]=/media/data/cpp/1412/CodeBrowser/build/ui_qgraphexplorer.h
+File6[$e]=/media/data/cpp/1412/CodeBrowser/ui/widgets/graphexplorer/qgraphexplorer.cpp
+File7[$e]=/media/data/cpp/1412/CodeBrowser/graphlibwrappers/qgraphwrapper.h
+File8[$e]=/media/data/cpp/1412/CodeBrowser/ui/widgets/graphexplorer/qgraphexplorer.h
+File9[$e]=/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h
+Name1[$e]=contextualrepresentationbuilder.h
+Name10[$e]=qobjectdefs.h
+Name2[$e]=gremlinserverbackend.cpp
+Name3[$e]=mainwindow.cpp
+Name4[$e]=mainwindow.h
+Name5[$e]=ui_qgraphexplorer.h
+Name6[$e]=qgraphexplorer.cpp
+Name7[$e]=qgraphwrapper.h
+Name8[$e]=qgraphexplorer.h
+Name9[$e]=qwidget.h
+
+[RecentProjects]
+File1[$e]=/media/data/python/1412/graph/cpp/GraphLib/GraphLib.kdev4
+File2[$e]=/media/data/cpp/1412/CodeBrowser/CodeBrowser.kdev4
+Name1[$e]=GraphLib.kdev4
+Name2[$e]=CodeBrowser.kdev4
+
+[Sessions]
+Active Session ID={ba1241cd-bb37-4033-907c-d04137ef0451}
+
+[UiSettings]
+BottomRightCornerOwner=1
+
+[User Interface]
+Main Windows Count=1
+
+[User Interface][Main Window 0][Area code]
+desired views=org.kdevelop.ClassBrowserView:1,org.kdevelop.ContextBrowser:8,org.kdevelop.DocumentationView:2,org.kdevelop.DocumentsView:1,org.kdevelop.ExternalScriptView:2,org.kdevelop.FileManagerView:1,org.kdevelop.GrepOutputView:8,org.kdevelop.KonsoleView:8,org.kdevelop.OutputView:8,org.kdevelop.OutputView.0:8,org.kdevelop.OutputView.12:8,org.kdevelop.OutputView.15:8,org.kdevelop.OutputView.16:8,org.kdevelop.OutputView.2:8,org.kdevelop.OutputView.29:8,org.kdevelop.OutputView.38:8,org.kdevelop.OutputView.4:8,org.kdevelop.OutputView.6:8,org.kdevelop.ProjectsView:1,org.kdevelop.SnippetView:2
+id=code
+thickness bottom=-1
+thickness left=-1
+thickness right=-1
+thickness top=-1
+view on bottom=org.kdevelop.OutputView.0
+view on left=org.kdevelop.ProjectsView
+view on right=
+view on top=
+working set=code_1502094
+
+[User Interface][Main Window 0][Area debug]
+desired views=org.kdevelop.ContextBrowser:8,org.kdevelop.DocumentationView:2,org.kdevelop.FileManagerView:1,org.kdevelop.GrepOutputView:8,org.kdevelop.KonsoleView:8,org.kdevelop.OutputView.0:8,org.kdevelop.OutputView.12:8,org.kdevelop.OutputView.15:8,org.kdevelop.OutputView.16:8,org.kdevelop.OutputView.2:8,org.kdevelop.OutputView.29:8,org.kdevelop.OutputView.38:8,org.kdevelop.OutputView.4:8,org.kdevelop.OutputView.6:8,org.kdevelop.ProjectsView:1,org.kdevelop.debugger.BreakpointsView:8,org.kdevelop.debugger.ConsoleView:8,org.kdevelop.debugger.StackView:8,org.kdevelop.debugger.VariablesView:1
+id=debug
+thickness bottom=-1
+thickness left=-1
+thickness right=-1
+thickness top=-1
+view on bottom=org.kdevelop.GrepOutputView
+view on left=org.kdevelop.debugger.VariablesView
+view on right=
+view on top=
+working set=code_1502094
+
+[User Interface][Main Window 0][Area review]
+desired views=org.kdevelop.DocumentationView:2,org.kdevelop.FileManagerView:1,org.kdevelop.OutputView.0:8,org.kdevelop.OutputView.12:8,org.kdevelop.OutputView.15:8,org.kdevelop.OutputView.16:8,org.kdevelop.OutputView.2:8,org.kdevelop.OutputView.29:8,org.kdevelop.OutputView.38:8,org.kdevelop.OutputView.4:8,org.kdevelop.OutputView.6:8,org.kdevelop.PatchReview:8,org.kdevelop.ProjectsView:1
+id=review
+thickness bottom=-1
+thickness left=-1
+thickness right=-1
+thickness top=-1
+view on bottom=
+view on left=
+view on right=
+view on top=
+working set=
+
+[breakpoints]
+number=0
+
+[breakpoints][0]
+condition=
+enabled=true
+expression=
+ignoreHits=0
+kind=Code
+line=187
+url=file:///media/data/python/1412/graph/cpp/GraphLib/backends/gremlinserverbackend/gremlinserverbackend.cpp
+
+[breakpoints][1]
+condition=
+enabled=true
+expression=
+ignoreHits=0
+kind=Code
+line=123
+url=file:///media/data/python/1412/graph/cpp/GraphLib/graphserverconnection.cpp
