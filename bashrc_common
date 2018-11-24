@@ -36,5 +36,10 @@ alias gb='git branch'
 alias gd='git diff'
 alias gdc='git diff --cached'
 alias gds='git diff --staged'
-alias grh='git reset head'
+alias grh='git reset HEAD'
 alias gsec='git secret'
+
+cdmkdir()
+{
+    mkdir -p -- "$1" && cd -P -- "$1"
+}
