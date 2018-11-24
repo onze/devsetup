@@ -22,6 +22,7 @@ alias apt-origin='apt-file search'
 alias py='python3'
 alias ipy='ipython3'
 alias opensimplehttpserver='python3 -m http.server 8000'
+alias opensimpleftpserver='python3 -m pyftpdlib'
 alias rmpyc='find . -name "*.pyc" -exec rm -rf {} \;'
 
 # git aliases
