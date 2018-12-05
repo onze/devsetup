@@ -10,32 +10,37 @@ TARGET_HOST=$2
 IDENTITY_FILE=$3
 
 IS_ON_TARGET=""
-if [[ -e "$TARGET_HOST" ]] ; then
+if [[ -z "$TARGET_USER" ]] ; then
     IS_ON_TARGET="yes"
 fi
 
-if [[ -e $IS_ON_TARGET ]] ; then
+if [[ -z $IS_ON_TARGET ]] ; then
 echo "##########################################"
 echo "################################ LOCAL RUN"
 echo "##########################################"
 scp -i "$IDENTITY_FILE" "$IDENTITY_FILE" $TARGET_USER@$TARGET_HOST:~/.ssh/id_rsa
 scp -i "$IDENTITY_FILE" "$IDENTITY_FILE.pub" $TARGET_USER@$TARGET_HOST:~/.ssh/id_rsa.pub
-scp -i "$IDENTITY_FILE" "$BASH_SOURCE[0]" $TARGET_USER@$TARGET_HOST:~/
-ssh -i "$IDENTITY_FILE" $TARGET_USER@$TARGET_HOST ~/deploy.sh $TARGET_USER '$HOSTNAME'
+scp -i "$IDENTITY_FILE" "$BASH_SOURCE" $TARGET_USER@$TARGET_HOST:~/deploy.sh
+ssh -i "$IDENTITY_FILE" $TARGET_USER@$TARGET_HOST ./deploy.sh
 else
 echo "##########################################"
 echo "############################### REMOTE RUN"
 echo "##########################################"
+eval `ssh-agent -s`
+ssh-add ~/.ssh/id_rsa
 sudo apt install -y git
 mkdir -p ~/libs
-git@github.com:onze/devsetup.git ~/libs/devsetup
+git clone git@github.com:onze/devsetup.git ~/libs/devsetup
 echo "source ~/libs/devsetup/bashrc_common" >> ~/.bashrc
 source ~/libs/devsetup/bashrc_common
 
 update && upgrade -y && autoremove
 
 # install docker
+i -y ca-certificates curl gnupg2 software-properties-common
 curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add -
-i docker trash-cli htop locate python3-pip
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/debian $(lsb_release -cs) stable"
+update
+i -y docker-ce trash-cli htop locate python3-pip
 
 fi
