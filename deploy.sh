@@ -16,15 +16,15 @@ fi
 
 if [[ -z $IS_ON_TARGET ]] ; then
 echo "##########################################"
-echo "################################ LOCAL RUN"
+echo "################################ LOCAL RUN on $HOSTNAME"
 echo "##########################################"
 scp -i "$IDENTITY_FILE" "$IDENTITY_FILE" $TARGET_USER@$TARGET_HOST:~/.ssh/id_rsa
 scp -i "$IDENTITY_FILE" "$IDENTITY_FILE.pub" $TARGET_USER@$TARGET_HOST:~/.ssh/id_rsa.pub
 scp -i "$IDENTITY_FILE" "$BASH_SOURCE" $TARGET_USER@$TARGET_HOST:~/deploy.sh
-ssh -i "$IDENTITY_FILE" $TARGET_USER@$TARGET_HOST ./deploy.sh
+# ssh -i "$IDENTITY_FILE" $TARGET_USER@$TARGET_HOST ./deploy.sh
 else
 echo "##########################################"
-echo "############################### REMOTE RUN"
+echo "############################### REMOTE RUN on $HOSTNAME"
 echo "##########################################"
 eval `ssh-agent -s`
 ssh-add ~/.ssh/id_rsa
@@ -33,6 +33,7 @@ mkdir -p ~/libs
 git clone git@github.com:onze/devsetup.git ~/libs/devsetup
 echo "source ~/libs/devsetup/bashrc_common" >> ~/.bashrc
 source ~/libs/devsetup/bashrc_common
+mkdir ~/.config/i3 && ln -s ~/libs/devsetup/home/.config/i3/config ~/.config/i3/config
 
 update && upgrade -y && autoremove
 
