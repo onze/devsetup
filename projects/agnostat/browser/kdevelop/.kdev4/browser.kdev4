@@ -1,0 +1,313 @@
+[Buildset]
+BuildItems=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x01\x00\x00\x00\x1e\x00A\x00g\x00n\x00o\x00s\x00t\x00a\x00t\x00B\x00r\x00o\x00w\x00s\x00e\x00r)
+
+[CMake]
+Build Directory Count=1
+Current Build Directory Index-Host System=0
+
+[CMake][CMake Build Directory 0]
+Build Directory Path=/media/datassd0/projects/agnostat/browser/build.Debug
+Build Type=Debug
+CMake Binary=/usr/bin/cmake
+CMake Executable=/usr/bin/cmake
+Environment Profile=
+Extra Arguments=
+Install Directory=/usr/local
+Runtime=Host System
+
+[Cppcheck]
+checkMissingInclude=true
+checkPerformance=true
+checkPortability=true
+checkUnusedFunction=true
+
+[CustomDefinesAndIncludes][ProjectPath0]
+Path=.
+parseAmbiguousAsCPP=true
+parserArguments=-ferror-limit=100 -fspell-checking -Wdocumentation -Wunused-parameter -Wunreachable-code -Wall -std=c++1z
+parserArgumentsC=-ferror-limit=100 -fspell-checking -Wdocumentation -Wunused-parameter -Wunreachable-code -Wall -std=c99
+parserArgumentsCuda=-ferror-limit=100 -fspell-checking -Wdocumentation -Wunused-parameter -Wunreachable-code -Wall -std=c++11
+parserArgumentsOpenCL=-ferror-limit=100 -fspell-checking -Wdocumentation -Wunused-parameter -Wunreachable-code -Wall -cl-std=CL1.1
+
+[CustomDefinesAndIncludes][ProjectPath0][Compiler]
+Name=GCC
+
+[CustomDefinesAndIncludes][ProjectPath0][Includes]
+1=/usr/include/
+10=/media/data/cpp/libs/qt/5.12.1/gcc_64/include/QtCore
+11=/media/datassd0/projects/agnostat/browser/build.Debug
+2=/media/data/cpp/libs/qt/5.12.1/gcc_64/include/QtQml
+3=/media/data/cpp/libs/qt/5.12.1/gcc_64/include/QtNetwork
+4=/media/datassd0/projects/agnostat/browser
+5=/media/datassd0/projects/agnostat/GraphLib
+6=/usr/include/jsoncpp
+7=/media/datassd0/projects/agnostat/libs/capnproto/build.Debug/capnp/usr/local/include
+8=/media/data/cpp/libs/qt/5.12.1/gcc_64/include/QtWidgets
+9=/media/data/cpp/libs/qt/5.12.1/gcc_64/include/QtGui
+
+[Filters]
+size=34
+
+[Filters][0]
+inclusive=0
+pattern=.*
+targets=3
+
+[Filters][1]
+inclusive=1
+pattern=.gitignore
+targets=1
+
+[Filters][10]
+inclusive=0
+pattern=.bzr
+targets=2
+
+[Filters][11]
+inclusive=0
+pattern=__pycache__
+targets=2
+
+[Filters][12]
+inclusive=0
+pattern=*.o
+targets=1
+
+[Filters][13]
+inclusive=0
+pattern=*.a
+targets=1
+
+[Filters][14]
+inclusive=0
+pattern=*.so
+targets=1
+
+[Filters][15]
+inclusive=0
+pattern=*.so.*
+targets=1
+
+[Filters][16]
+inclusive=0
+pattern=*.obj
+targets=1
+
+[Filters][17]
+inclusive=0
+pattern=*.lib
+targets=1
+
+[Filters][18]
+inclusive=0
+pattern=*.dll
+targets=1
+
+[Filters][19]
+inclusive=0
+pattern=*.exp
+targets=1
+
+[Filters][2]
+inclusive=1
+pattern=.gitmodules
+targets=1
+
+[Filters][20]
+inclusive=0
+pattern=*.pdb
+targets=1
+
+[Filters][21]
+inclusive=0
+pattern=moc_*.cpp
+targets=1
+
+[Filters][22]
+inclusive=0
+pattern=*.moc
+targets=1
+
+[Filters][23]
+inclusive=0
+pattern=ui_*.h
+targets=1
+
+[Filters][24]
+inclusive=0
+pattern=*.qmlc
+targets=1
+
+[Filters][25]
+inclusive=0
+pattern=qrc_*.cpp
+targets=1
+
+[Filters][26]
+inclusive=0
+pattern=*~
+targets=1
+
+[Filters][27]
+inclusive=0
+pattern=*.orig
+targets=1
+
+[Filters][28]
+inclusive=0
+pattern=.*.kate-swp
+targets=1
+
+[Filters][29]
+inclusive=0
+pattern=.*.swp
+targets=1
+
+[Filters][3]
+inclusive=0
+pattern=.git
+targets=2
+
+[Filters][30]
+inclusive=0
+pattern=*.pyc
+targets=1
+
+[Filters][31]
+inclusive=0
+pattern=*.pyo
+targets=1
+
+[Filters][32]
+inclusive=0
+pattern=/build.Debug
+targets=2
+
+[Filters][33]
+inclusive=0
+pattern=/build.Release
+targets=2
+
+[Filters][4]
+inclusive=0
+pattern=CVS
+targets=2
+
+[Filters][5]
+inclusive=0
+pattern=.svn
+targets=2
+
+[Filters][6]
+inclusive=0
+pattern=_svn
+targets=2
+
+[Filters][7]
+inclusive=0
+pattern=SCCS
+targets=2
+
+[Filters][8]
+inclusive=0
+pattern=_darcs
+targets=2
+
+[Filters][9]
+inclusive=0
+pattern=.hg
+targets=2
+
+[Launch]
+Launch Configurations=Launch Configuration 0,Launch Configuration 1,Launch Configuration 2,Launch Configuration 3
+
+[Launch][Launch Configuration 0]
+Configured Launch Modes=execute
+Configured Launchers=nativeAppLauncher
+Name=codebrowser
+Type=Native Application
+
+[Launch][Launch Configuration 0][Data]
+Arguments=-style fusion
+Debugger Shell=
+Dependencies=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x02\x00\x00\x00\x0b\x00\x00\x00\x00\x03\x00\x00\x00\x1e\x00A\x00g\x00n\x00o\x00s\x00t\x00a\x00t\x00B\x00r\x00o\x00w\x00s\x00e\x00r\x00\x00\x00\x0e\x00b\x00r\x00o\x00w\x00s\x00e\x00r\x00\x00\x00\x06\x00a\x00p\x00p\x00\x00\x00\x0b\x00\x00\x00\x00\x02\x00\x00\x00\x10\x00G\x00r\x00a\x00p\x00h\x00L\x00i\x00b\x00\x00\x00\x10\x00g\x00r\x00a\x00p\x00h\x00l\x00i\x00b)
+Dependency Action=Build
+Display Demangle Names=true
+Display Static Members=true
+EnvironmentGroup=default
+Executable=file:///media/datassd0/projects/agnostat/browser/build.Debug/agnostatBrowserApp
+External Terminal=konsole --noclose --workdir %workdir -e %exe
+GDB Path=file:///usr/bin/gdb
+Project Target=
+Remote GDB Config Script=
+Remote GDB Run Script=
+Remote GDB Shell Script=
+Start With=FrameStack
+Use External Terminal=false
+Working Directory=file:///media/datassd0/projects/agnostat/browser
+isExecutable=true
+
+[Launch][Launch Configuration 1]
+Configured Launch Modes=execute
+Configured Launchers=nativeAppLauncher
+Name=test -- ALL
+Type=Native Application
+
+[Launch][Launch Configuration 1][Data]
+Arguments=--config=config.json --log-level=0 --disable-seccomp-filter-sandbox --gtest_break_on_failure
+Dependencies=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x04\x00\x00\x00\x1e\x00A\x00g\x00n\x00o\x00s\x00t\x00a\x00t\x00B\x00r\x00o\x00w\x00s\x00e\x00r\x00\x00\x00\x0e\x00b\x00r\x00o\x00w\x00s\x00e\x00r\x00\x00\x00\n\x00t\x00e\x00s\x00t\x00s\x00\x00\x00(\x00a\x00g\x00n\x00o\x00s\x00t\x00a\x00t\x00B\x00r\x00o\x00w\x00s\x00e\x00r\x00T\x00e\x00s\x00t\x00s)
+Dependency Action=Build
+EnvironmentGroup=
+Executable=file:///media/datassd0/projects/agnostat/browser/build/agnostatBrowserTests
+External Terminal=konsole --noclose --workdir %workdir -e %exe
+Project Target=AgnostatBrowser,browser,tests,agnostatBrowserTests
+Use External Terminal=false
+Working Directory=file:///media/datassd0/projects/agnostat/browser
+isExecutable=false
+
+[Launch][Launch Configuration 2]
+Configured Launch Modes=execute
+Configured Launchers=nativeAppLauncher
+Name=test -- remote queries
+Type=Native Application
+
+[Launch][Launch Configuration 2][Data]
+Arguments=--config=config.json --log-level=0 --disable-seccomp-filter-sandbox --gtest_break_on_failure --gtest_filter="RemoteQueriesTest*"
+Dependencies=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x04\x00\x00\x00\x1e\x00A\x00g\x00n\x00o\x00s\x00t\x00a\x00t\x00B\x00r\x00o\x00w\x00s\x00e\x00r\x00\x00\x00\x0e\x00b\x00r\x00o\x00w\x00s\x00e\x00r\x00\x00\x00\n\x00t\x00e\x00s\x00t\x00s\x00\x00\x00(\x00a\x00g\x00n\x00o\x00s\x00t\x00a\x00t\x00B\x00r\x00o\x00w\x00s\x00e\x00r\x00T\x00e\x00s\x00t\x00s)
+Dependency Action=Build
+EnvironmentGroup=
+Executable=file:///media/datassd0/projects/agnostat/browser
+External Terminal=konsole --noclose --workdir %workdir -e %exe
+Project Target=AgnostatBrowser,browser,tests,agnostatBrowserTests
+Use External Terminal=false
+Working Directory=file:///media/datassd0/projects/agnostat/browser
+isExecutable=false
+
+[Launch][Launch Configuration 3]
+Configured Launch Modes=execute
+Configured Launchers=nativeAppLauncher
+Name=test -- QueryActionsTest
+Type=Native Application
+
+[Launch][Launch Configuration 3][Data]
+Arguments=--config=config.json --log-level=0 --disable-seccomp-filter-sandbox --gtest_break_on_failure --gtest_filter="QueryActionsTest*"
+Dependencies=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x04\x00\x00\x00\x1e\x00A\x00g\x00n\x00o\x00s\x00t\x00a\x00t\x00B\x00r\x00o\x00w\x00s\x00e\x00r\x00\x00\x00\x0e\x00b\x00r\x00o\x00w\x00s\x00e\x00r\x00\x00\x00\n\x00t\x00e\x00s\x00t\x00s\x00\x00\x00(\x00a\x00g\x00n\x00o\x00s\x00t\x00a\x00t\x00B\x00r\x00o\x00w\x00s\x00e\x00r\x00T\x00e\x00s\x00t\x00s)
+Dependency Action=Build
+EnvironmentGroup=
+Executable=file:///media/datassd0/projects/agnostat/browser
+External Terminal=konsole --noclose --workdir %workdir -e %exe
+Project Target=AgnostatBrowser,browser,tests,agnostatBrowserTests
+Use External Terminal=false
+Working Directory=file:///media/datassd0/projects/agnostat/browser
+isExecutable=false
+
+[MakeBuilder]
+Default Make Environment Profile=
+Number Of Jobs=8
+Override Number Of Jobs=true
+
+[Project]
+VersionControlSupport=kdevgit
+
+[SourceFileTemplates]
+LastUsedTemplate=/home/onze/.local/share/kdevfiletemplates/template_descriptions/qt_widget.desktop
