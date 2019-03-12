@@ -1,5 +1,5 @@
 [Buildset]
-BuildItems=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x01\x00\x00\x00\x10\x00G\x00r\x00a\x00p\x00h\x00L\x00i\x00b)
+BuildItems=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x01\x00\x00\x00\x10\x00g\x00r\x00a\x00p\x00h\x00l\x00i\x00b)
 
 [CMake]
 Build Directory Count=1
@@ -8,7 +8,7 @@ Current Build Directory Index-Host System=0
 ProjectRootRelative=./
 
 [CMake][CMake Build Directory 0]
-Build Directory Path=/media/datassd0/projects/agnostat/GraphLib/build.Debug
+Build Directory Path=/media/datassd0/projects/agnostat/graphlib/build.Debug
 Build Type=Debug
 CMake Binary=/usr/bin/cmake
 CMake Executable=/usr/bin/cmake
@@ -31,9 +31,9 @@ Name=GCC
 [CustomDefinesAndIncludes][ProjectPath0][Includes]
 1=/usr/include
 2=/usr/include/jsoncpp
-3=/media/datassd0/projects/agnostat/GraphLib/3rdParty/xlnt/include
-4=/media/datassd0/projects/agnostat/GraphLib/3rdParty/snap/include
-5=/media/datassd0/projects/agnostat/GraphLib
+3=/media/datassd0/projects/agnostat/graphlib/3rdParty/xlnt/include
+4=/media/datassd0/projects/agnostat/graphlib/3rdParty/snap/include
+5=/media/datassd0/projects/agnostat/graphlib
 
 [Defines And Includes][Compiler]
 Name=GCC
@@ -200,21 +200,21 @@ Type=Native Application
 [Launch][Launch Configuration 0][Data]
 Arguments=--gtest_break_on_failure --gtest_filter="*"
 Debugger Shell=
-Dependencies=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x04\x00\x00\x00\x10\x00G\x00r\x00a\x00p\x00h\x00L\x00i\x00b\x00\x00\x00\x10\x00g\x00r\x00a\x00p\x00h\x00l\x00i\x00b\x00\x00\x00\n\x00t\x00e\x00s\x00t\x00s\x00\x00\x00\x1a\x00g\x00r\x00a\x00p\x00h\x00l\x00i\x00b\x00T\x00e\x00s\x00t\x00s)
+Dependencies=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x00)
 Dependency Action=Build
 Display Demangle Names=true
 Display Static Members=true
 EnvironmentGroup=
-Executable=file:///media/datassd0/projects/agnostat/GraphLib/build/graphlibTests
+Executable=file:///media/datassd0/projects/agnostat/graphlib/build.Debug/graphlibTests
 External Terminal=konsole --noclose --workdir %workdir -e %exe
 GDB Path=
-Project Target=GraphLib,graphlib,tests,graphlibTests
+Project Target=graphlib,graphlib,tests,graphlibTests
 Remote GDB Config Script=
 Remote GDB Run Script=
 Remote GDB Shell Script=
 Start With=ApplicationOutput
 Use External Terminal=false
-Working Directory=file:///media/datassd0/projects/agnostat/GraphLib/graphlib/tests/
+Working Directory=file:///media/datassd0/projects/agnostat/graphlib/graphlib/tests/
 isExecutable=false
 
 [Launch][Launch Configuration 1]
@@ -231,16 +231,16 @@ Dependency Action=Build
 Display Demangle Names=true
 Display Static Members=false
 EnvironmentGroup=
-Executable=file:///media/datassd0/projects/agnostat/GraphLib/build/graphlibTests
+Executable=file:///media/datassd0/projects/agnostat/graphlib/build.Debug/graphlibTests
 External Terminal=konsole --noclose --workdir %workdir -e %exe
 GDB Path=
-Project Target=GraphLib,graphlib,tests,graphlibTests
+Project Target=graphlib,graphlib,tests,graphlibTests
 Remote GDB Config Script=
 Remote GDB Run Script=
 Remote GDB Shell Script=
 Start With=ApplicationOutput
 Use External Terminal=false
-Working Directory=file:///media/datassd0/projects/agnostat/GraphLib/graphlib/tests/
+Working Directory=file:///media/datassd0/projects/agnostat/graphlib/graphlib/tests/
 isExecutable=false
 
 [Launch][Launch Configuration 10]
@@ -254,11 +254,11 @@ Arguments=--gtest_break_on_failure --gtest_filter="FSUtilsTest*"
 Dependencies=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x04\x00\x00\x00\x10\x00G\x00r\x00a\x00p\x00h\x00L\x00i\x00b\x00\x00\x00\x10\x00g\x00r\x00a\x00p\x00h\x00l\x00i\x00b\x00\x00\x00\n\x00t\x00e\x00s\x00t\x00s\x00\x00\x00\x1a\x00g\x00r\x00a\x00p\x00h\x00l\x00i\x00b\x00T\x00e\x00s\x00t\x00s)
 Dependency Action=Build
 EnvironmentGroup=
-Executable=file:///media/datassd0/projects/agnostat/GraphLib
+Executable=file:///media/datassd0/projects/agnostat/graphlib/build.Debug/graphlibTests
 External Terminal=konsole --noclose --workdir %workdir -e %exe
-Project Target=GraphLib,graphlib,tests,graphlibTests
+Project Target=graphlib,graphlib,tests,graphlibTests
 Use External Terminal=false
-Working Directory=file:///media/datassd0/projects/agnostat/GraphLib/graphlib/tests/
+Working Directory=file:///media/datassd0/projects/agnostat/graphlib/graphlib/tests/
 isExecutable=false
 
 [Launch][Launch Configuration 11]
@@ -272,11 +272,11 @@ Arguments=--gtest_break_on_failure --gtest_filter="FlatRepresentationBuilderTest
 Dependencies=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x04\x00\x00\x00\x10\x00G\x00r\x00a\x00p\x00h\x00L\x00i\x00b\x00\x00\x00\x10\x00g\x00r\x00a\x00p\x00h\x00l\x00i\x00b\x00\x00\x00\n\x00t\x00e\x00s\x00t\x00s\x00\x00\x00\x1a\x00g\x00r\x00a\x00p\x00h\x00l\x00i\x00b\x00T\x00e\x00s\x00t\x00s)
 Dependency Action=Build
 EnvironmentGroup=
-Executable=file:///media/datassd0/projects/agnostat/GraphLib
+Executable=file:///media/datassd0/projects/agnostat/graphlib/build.Debug/graphlibTests
 External Terminal=konsole --noclose --workdir %workdir -e %exe
-Project Target=GraphLib,graphlib,tests,graphlibTests
+Project Target=graphlib,graphlib,tests,graphlibTests
 Use External Terminal=false
-Working Directory=file:///media/datassd0/projects/agnostat/GraphLib/graphlib/tests/
+Working Directory=file:///media/datassd0/projects/agnostat/graphlib/graphlib/tests/
 isExecutable=false
 
 [Launch][Launch Configuration 12]
@@ -290,11 +290,11 @@ Arguments=--gtest_break_on_failure --gtest_filter="TraversalProcessorTest*"
 Dependencies=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x04\x00\x00\x00\x10\x00G\x00r\x00a\x00p\x00h\x00L\x00i\x00b\x00\x00\x00\x10\x00g\x00r\x00a\x00p\x00h\x00l\x00i\x00b\x00\x00\x00\n\x00t\x00e\x00s\x00t\x00s\x00\x00\x00\x1a\x00g\x00r\x00a\x00p\x00h\x00l\x00i\x00b\x00T\x00e\x00s\x00t\x00s)
 Dependency Action=Build
 EnvironmentGroup=
-Executable=file:///media/datassd0/projects/agnostat/GraphLib
+Executable=file:///media/datassd0/projects/agnostat/graphlib/build.Debug/graphlibTests
 External Terminal=konsole --noclose --workdir %workdir -e %exe
-Project Target=GraphLib,graphlib,tests,graphlibTests
+Project Target=graphlib,graphlib,tests,graphlibTests
 Use External Terminal=false
-Working Directory=file:///media/datassd0/projects/agnostat/GraphLib/graphlib/tests/
+Working Directory=file:///media/datassd0/projects/agnostat/graphlib/graphlib/tests/
 isExecutable=false
 
 [Launch][Launch Configuration 13]
@@ -308,11 +308,11 @@ Arguments=--gtest_break_on_failure --gtest_filter="LocalQueriesTest*"
 Dependencies=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x04\x00\x00\x00\x10\x00G\x00r\x00a\x00p\x00h\x00L\x00i\x00b\x00\x00\x00\x10\x00g\x00r\x00a\x00p\x00h\x00l\x00i\x00b\x00\x00\x00\n\x00t\x00e\x00s\x00t\x00s\x00\x00\x00\x1a\x00g\x00r\x00a\x00p\x00h\x00l\x00i\x00b\x00T\x00e\x00s\x00t\x00s)
 Dependency Action=Build
 EnvironmentGroup=
-Executable=file:///media/datassd0/projects/agnostat/GraphLib
+Executable=file:///media/datassd0/projects/agnostat/graphlib/build.Debug/graphlibTests
 External Terminal=konsole --noclose --workdir %workdir -e %exe
-Project Target=GraphLib,graphlib,tests,graphlibTests
+Project Target=graphlib,graphlib,tests,graphlibTests
 Use External Terminal=false
-Working Directory=file:///media/datassd0/projects/agnostat/GraphLib/graphlib/tests/
+Working Directory=file:///media/datassd0/projects/agnostat/graphlib/graphlib/tests/
 isExecutable=false
 
 [Launch][Launch Configuration 14]
@@ -326,11 +326,11 @@ Arguments=--gtest_break_on_failure --gtest_filter="EdgeListParsingTest*"
 Dependencies=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x04\x00\x00\x00\x10\x00G\x00r\x00a\x00p\x00h\x00L\x00i\x00b\x00\x00\x00\x10\x00g\x00r\x00a\x00p\x00h\x00l\x00i\x00b\x00\x00\x00\n\x00t\x00e\x00s\x00t\x00s\x00\x00\x00\x1a\x00g\x00r\x00a\x00p\x00h\x00l\x00i\x00b\x00T\x00e\x00s\x00t\x00s)
 Dependency Action=Nothing
 EnvironmentGroup=
-Executable=file:///media/datassd0/projects/agnostat/GraphLib
+Executable=file:///media/datassd0/projects/agnostat/graphlib/build.Debug/graphlibTests
 External Terminal=konsole --noclose --workdir %workdir -e %exe
-Project Target=GraphLib,graphlib,tests,graphlibTests
+Project Target=graphlib,graphlib,tests,graphlibTests
 Use External Terminal=false
-Working Directory=file:///media/datassd0/projects/agnostat/GraphLib/graphlib/tests/
+Working Directory=file:///media/datassd0/projects/agnostat/graphlib/graphlib/tests/
 isExecutable=false
 
 [Launch][Launch Configuration 2]
@@ -344,11 +344,11 @@ Arguments=--gtest_break_on_failure --gtest_filter="StringUtilsTest.*:VariantTest
 Dependencies=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x04\x00\x00\x00\x10\x00G\x00r\x00a\x00p\x00h\x00L\x00i\x00b\x00\x00\x00\x10\x00g\x00r\x00a\x00p\x00h\x00l\x00i\x00b\x00\x00\x00\n\x00t\x00e\x00s\x00t\x00s\x00\x00\x00\x1a\x00g\x00r\x00a\x00p\x00h\x00l\x00i\x00b\x00T\x00e\x00s\x00t\x00s)
 Dependency Action=Build
 EnvironmentGroup=
-Executable=file:///media/datassd0/projects/agnostat/GraphLib/build/graphlibTests
+Executable=file:///media/datassd0/projects/agnostat/graphlib/build.Debug/graphlibTests
 External Terminal=konsole --noclose --workdir %workdir -e %exe
-Project Target=GraphLib,graphlib,tests,graphlibTests
+Project Target=graphlib,graphlib,tests,graphlibTests
 Use External Terminal=false
-Working Directory=file:///media/datassd0/projects/agnostat/GraphLib/graphlib/tests/
+Working Directory=file:///media/datassd0/projects/agnostat/graphlib/graphlib/tests/
 isExecutable=false
 
 [Launch][Launch Configuration 3]
@@ -362,11 +362,11 @@ Arguments=--gtest_break_on_failure --gtest_filter="CSVParsing*"
 Dependencies=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x04\x00\x00\x00\x10\x00G\x00r\x00a\x00p\x00h\x00L\x00i\x00b\x00\x00\x00\x10\x00g\x00r\x00a\x00p\x00h\x00l\x00i\x00b\x00\x00\x00\n\x00t\x00e\x00s\x00t\x00s\x00\x00\x00\x1a\x00g\x00r\x00a\x00p\x00h\x00l\x00i\x00b\x00T\x00e\x00s\x00t\x00s)
 Dependency Action=Build
 EnvironmentGroup=
-Executable=file:///media/datassd0/projects/agnostat/GraphLib/build/graphlibTests
+Executable=file:///media/datassd0/projects/agnostat/graphlib/build.Debug/graphlibTests
 External Terminal=konsole --noclose --workdir %workdir -e %exe
-Project Target=GraphLib,graphlib,tests,graphlibTests
+Project Target=graphlib,graphlib,tests,graphlibTests
 Use External Terminal=false
-Working Directory=file:///media/datassd0/projects/agnostat/GraphLib/graphlib/tests/
+Working Directory=file:///media/datassd0/projects/agnostat/graphlib/graphlib/tests/
 isExecutable=false
 
 [Launch][Launch Configuration 4]
@@ -380,11 +380,11 @@ Arguments=--gtest_break_on_failure --gtest_filter="GraphManipTest*"
 Dependencies=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x04\x00\x00\x00\x10\x00G\x00r\x00a\x00p\x00h\x00L\x00i\x00b\x00\x00\x00\x10\x00g\x00r\x00a\x00p\x00h\x00l\x00i\x00b\x00\x00\x00\n\x00t\x00e\x00s\x00t\x00s\x00\x00\x00\x1a\x00g\x00r\x00a\x00p\x00h\x00l\x00i\x00b\x00T\x00e\x00s\x00t\x00s)
 Dependency Action=Build
 EnvironmentGroup=
-Executable=file:///media/datassd0/projects/agnostat/GraphLib/build/graphlibTests
+Executable=file:///media/datassd0/projects/agnostat/graphlib/build.Debug/graphlibTests
 External Terminal=konsole --noclose --workdir %workdir -e %exe
-Project Target=GraphLib,graphlib,tests,graphlibTests
+Project Target=graphlib,graphlib,tests,graphlibTests
 Use External Terminal=false
-Working Directory=file:///media/datassd0/projects/agnostat/GraphLib/graphlib/tests/
+Working Directory=file:///media/datassd0/projects/agnostat/graphlib/graphlib/tests/
 isExecutable=false
 
 [Launch][Launch Configuration 5]
@@ -401,16 +401,16 @@ Dependency Action=Build
 Display Demangle Names=true
 Display Static Members=false
 EnvironmentGroup=
-Executable=file:///media/datassd0/projects/agnostat/GraphLib/build/graphlibTests
+Executable=file:///media/datassd0/projects/agnostat/graphlib/build.Debug/graphlibTests
 External Terminal=konsole --noclose --workdir %workdir -e %exe
 GDB Path=
-Project Target=GraphLib,graphlib,tests,graphlibTests
+Project Target=graphlib,graphlib,tests,graphlibTests
 Remote GDB Config Script=
 Remote GDB Run Script=
 Remote GDB Shell Script=
 Start With=ApplicationOutput
 Use External Terminal=false
-Working Directory=file:///media/datassd0/projects/agnostat/GraphLib/graphlib/tests/
+Working Directory=file:///media/datassd0/projects/agnostat/graphlib/graphlib/tests/
 isExecutable=false
 
 [Launch][Launch Configuration 6]
@@ -424,11 +424,11 @@ Arguments=--gtest_break_on_failure --gtest_filter="CypherQueryTest*"
 Dependencies=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x04\x00\x00\x00\x10\x00G\x00r\x00a\x00p\x00h\x00L\x00i\x00b\x00\x00\x00\x10\x00g\x00r\x00a\x00p\x00h\x00l\x00i\x00b\x00\x00\x00\n\x00t\x00e\x00s\x00t\x00s\x00\x00\x00\x1a\x00g\x00r\x00a\x00p\x00h\x00l\x00i\x00b\x00T\x00e\x00s\x00t\x00s)
 Dependency Action=Build
 EnvironmentGroup=
-Executable=file:///media/datassd0/projects/agnostat/GraphLib/build/graphlibTests
+Executable=file:///media/datassd0/projects/agnostat/graphlib/build.Debug/graphlibTests
 External Terminal=konsole --noclose --workdir %workdir -e %exe
-Project Target=GraphLib,graphlib,tests,graphlibTests
+Project Target=graphlib,graphlib,tests,graphlibTests
 Use External Terminal=false
-Working Directory=file:///media/datassd0/projects/agnostat/GraphLib/graphlib/tests/
+Working Directory=file:///media/datassd0/projects/agnostat/graphlib/graphlib/tests/
 isExecutable=false
 
 [Launch][Launch Configuration 7]
@@ -442,11 +442,11 @@ Arguments=--gtest_break_on_failure --gtest_filter="SnapGraphTest*"
 Dependencies=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x04\x00\x00\x00\x10\x00G\x00r\x00a\x00p\x00h\x00L\x00i\x00b\x00\x00\x00\x10\x00g\x00r\x00a\x00p\x00h\x00l\x00i\x00b\x00\x00\x00\n\x00t\x00e\x00s\x00t\x00s\x00\x00\x00\x1a\x00g\x00r\x00a\x00p\x00h\x00l\x00i\x00b\x00T\x00e\x00s\x00t\x00s)
 Dependency Action=Build
 EnvironmentGroup=
-Executable=file:///media/datassd0/projects/agnostat/GraphLib
+Executable=file:///media/datassd0/projects/agnostat/graphlib/build.Debug/graphlibTests
 External Terminal=konsole --noclose --workdir %workdir -e %exe
-Project Target=GraphLib,graphlib,tests,graphlibTests
+Project Target=graphlib,graphlib,tests,graphlibTests
 Use External Terminal=false
-Working Directory=file:///media/datassd0/projects/agnostat/GraphLib/graphlib/tests/
+Working Directory=file:///media/datassd0/projects/agnostat/graphlib/graphlib/tests/
 isExecutable=false
 
 [Launch][Launch Configuration 8]
@@ -460,11 +460,11 @@ Arguments=--gtest_break_on_failure --gtest_filter="NormalizerTest*"
 Dependencies=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x04\x00\x00\x00\x10\x00G\x00r\x00a\x00p\x00h\x00L\x00i\x00b\x00\x00\x00\x10\x00g\x00r\x00a\x00p\x00h\x00l\x00i\x00b\x00\x00\x00\n\x00t\x00e\x00s\x00t\x00s\x00\x00\x00\x1a\x00g\x00r\x00a\x00p\x00h\x00l\x00i\x00b\x00T\x00e\x00s\x00t\x00s)
 Dependency Action=Build
 EnvironmentGroup=
-Executable=file:///media/datassd0/projects/agnostat/GraphLib
+Executable=file:///media/datassd0/projects/agnostat/graphlib/build.Debug/graphlibTests
 External Terminal=konsole --noclose --workdir %workdir -e %exe
-Project Target=GraphLib,graphlib,tests,graphlibTests
+Project Target=graphlib,graphlib,tests,graphlibTests
 Use External Terminal=false
-Working Directory=file:///media/datassd0/projects/agnostat/GraphLib/graphlib/tests/
+Working Directory=file:///media/datassd0/projects/agnostat/graphlib/graphlib/tests/
 isExecutable=false
 
 [Launch][Launch Configuration 9]
@@ -478,11 +478,11 @@ Arguments=--gtest_break_on_failure --gtest_filter="GremlinServerBackendTest*"
 Dependencies=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x04\x00\x00\x00\x10\x00G\x00r\x00a\x00p\x00h\x00L\x00i\x00b\x00\x00\x00\x10\x00g\x00r\x00a\x00p\x00h\x00l\x00i\x00b\x00\x00\x00\n\x00t\x00e\x00s\x00t\x00s\x00\x00\x00\x1a\x00g\x00r\x00a\x00p\x00h\x00l\x00i\x00b\x00T\x00e\x00s\x00t\x00s)
 Dependency Action=Build
 EnvironmentGroup=
-Executable=file:///media/datassd0/projects/agnostat/GraphLib
+Executable=file:///media/datassd0/projects/agnostat/graphlib/build.Debug/graphlibTests
 External Terminal=konsole --noclose --workdir %workdir -e %exe
-Project Target=GraphLib,graphlib,tests,graphlibTests
+Project Target=graphlib,graphlib,tests,graphlibTests
 Use External Terminal=false
-Working Directory=file:///media/datassd0/projects/agnostat/GraphLib/graphlib/tests/
+Working Directory=file:///media/datassd0/projects/agnostat/graphlib/graphlib/tests/
 isExecutable=false
 
 [MakeBuilder]
