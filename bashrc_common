@@ -33,6 +33,7 @@ alias rm='trash'
 alias k9='kill -9'
 alias k15='kill -15'
 alias m12='make -j12'
+alias n='ninja -j8'
 
 #alias i='sudo apt-get install'
 alias i='sudo apt install'
