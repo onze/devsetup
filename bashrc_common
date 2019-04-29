@@ -25,34 +25,33 @@ if [ -x /usr/bin/dircolors ]; then
     alias egrep='egrep --color=auto'
 fi
 
+# one letter shortcuts
 alias g='egrep'
 alias st='stat'
 alias ..='cd ..'
 alias rm='trash'
-
-alias k9='kill -9'
-alias k15='kill -15'
 alias m12='make -j12'
 alias n='ninja -j8'
+alias d='docker'
 
-#alias i='sudo apt-get install'
+# kill
+alias k9='kill -9'
+alias k15='kill -15'
+
+# apt
 alias i='sudo apt install'
-#alias r='sudo apt-get remove'
 alias r='sudo apt remove'
 alias s='apt-cache search'
-#alias update='sudo apt-get update'
 alias update='sudo apt update'
-#alias upgrade='sudo apt-get upgrade'
 alias upgrade='sudo apt upgrade'
-#alias distupgrade='sudo apt-get dist-upgrade'
 alias distupgrade='sudo apt-get full-upgrade'
-
 alias autoremove='sudo apt-get autoremove'
 alias purge='sudo apt-get purge'
 alias show='apt-cache show'
 alias list='dpkg-query -L'
 alias apt-origin='apt-file search'
 
+# python
 alias py='python3'
 alias ipy='ipython3'
 alias opensimplehttpserver='python3 -m http.server 8000'

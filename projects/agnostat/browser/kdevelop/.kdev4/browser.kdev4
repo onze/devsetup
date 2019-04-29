@@ -24,7 +24,7 @@ Runtime=Host System
 4=/media/datassd0/projects/agnostat/browser
 5=/media/datassd0/projects/agnostat/graphlib
 6=/usr/include/jsoncpp
-7=/media/datassd0/projects/agnostat/libs/capnproto/build.Debug/capnp/usr/local/include
+7=/media/datassd0/projects/agnostat/libs/capnproto/build.Debug/capnp/include
 8=/media/data/cpp/libs/qt/5.12.1/gcc_64/include/QtWidgets
 9=/media/data/cpp/libs/qt/5.12.1/gcc_64/include/QtGui
 
