@@ -38,7 +38,15 @@ alias d='docker'
 alias k9='kill -9'
 alias k15='kill -15'
 
+
+if [[ -n "${IS_DEBIAN}" ]] ; then
+export USE_APT=yep
+elif [[ -n "${IS_ARCH}" ]] ; then
+export USE_PACMAN=yep
+fi
+
 # apt
+if [[ -n "${USE_APT}" ]] ; then
 alias i='sudo apt install'
 alias r='sudo apt remove'
 alias s='apt-cache search'
@@ -50,6 +58,15 @@ alias purge='sudo apt-get purge'
 alias show='apt-cache show'
 alias list='dpkg-query -L'
 alias apt-origin='apt-file search'
+fi
+
+if [[ -n "${USE_PACMAN}" ]] ; then
+alias upgrade='pacman -Sy'
+alias update='pacman -Su'
+alias i='pacman -S'
+alias s='pacman -Ss'
+alias r='pacman -R'
+fi
 
 # python
 alias py='python3'
