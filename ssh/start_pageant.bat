@@ -1,0 +1,1 @@
+start "C:\Program Files\PuTTY\pageant.exe" C:\msys64\home\valentin\.ssh\id_rsa.ppk
