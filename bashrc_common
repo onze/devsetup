@@ -25,20 +25,38 @@ if [ -x /usr/bin/dircolors ]; then
     alias egrep='egrep --color=auto'
 fi
 
+
+export PATH="~/go/bin":${PATH}
+
 # one letter shortcuts
 alias g='egrep'
 alias st='stat'
 alias ..='cd ..'
-alias rm='trash'
+# alias rm='trash'
 alias m12='make -j12'
+alias m='make -j12'
 alias n='ninja -j8'
 alias d='docker'
+alias dc='docker-compose'
+
+# chmod
+alias chmox='chmox +x'
+alias chmor='chmox +r'
+alias chmow='chmox +w'
 
 # kill
 alias k9='kill -9'
 alias k15='kill -15'
 
+
+if [[ -n "${IS_DEBIAN}" ]] ; then
+export USE_APT=yep
+elif [[ -n "${IS_ARCH}" ]] ; then
+export USE_PACMAN=yep
+fi
+
 # apt
+if [[ -n "${USE_APT}" ]] ; then
 alias i='sudo apt install'
 alias r='sudo apt remove'
 alias s='apt-cache search'
@@ -50,6 +68,15 @@ alias purge='sudo apt-get purge'
 alias show='apt-cache show'
 alias list='dpkg-query -L'
 alias apt-origin='apt-file search'
+fi
+
+if [[ -n "${USE_PACMAN}" ]] ; then
+alias upgrade='pacman -Sy'
+alias update='pacman -Su'
+alias i='pacman -S'
+alias s='pacman -Ss'
+alias r='pacman -R'
+fi
 
 # python
 alias py='python3'
@@ -57,6 +84,7 @@ alias ipy='ipython3'
 alias opensimplehttpserver='python3 -m http.server 8000'
 alias opensimpleftpserver='python3 -m pyftpdlib'
 alias rmpyc='find . -name "*.pyc" -exec rm -rf {} \;'
+alias pip='python -m pip'
 
 # git aliases
 alias gs='git status'
@@ -73,7 +101,26 @@ alias gds='git diff --staged'
 alias grh='git reset HEAD'
 alias gsec='git secret'
 
+# svn stuff
+export SVN_EDITOR=nano
+alias svns='svn status'
+alias svna='svn add'
+alias svnc='svn commit'
+alias svnd='svn diff --diff-cmd colordiff'
+alias svndk='svn diff --diff-cmd "/c/Program Files/KDiff3/kdiff3.exe"'
+alias svnkdiff='svndk'
+
 cdmkdir()
 {
     mkdir -p -- "$1" && cd -P -- "$1"
 }
+
+removebom()
+{
+    input_file=$1
+    output_file=$1.nobom
+    sed '1s/^\xEF\xBB\xBF//' < ${input_file} > ${output_file}
+}
+
+
+#alias docker='docker.exe'
