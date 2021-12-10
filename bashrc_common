@@ -126,6 +126,8 @@ removebom()
 #alias docker='docker.exe'
 alias d='docker'
 
+alias tf=terraform
+
 # replace page up/down with home/end. Useful on laptops
 # xmodmap -e "keysym 0xff55 = Home"
 # xmodmap -e "keysym 0xff57 = End"
