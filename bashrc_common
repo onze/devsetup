@@ -124,3 +124,10 @@ removebom()
 
 
 #alias docker='docker.exe'
+alias d='docker'
+
+# replace page up/down with home/end. Useful on laptops
+# xmodmap -e "keysym 0xff55 = Home"
+# xmodmap -e "keysym 0xff57 = End"
+# then these go to /etc/X11/Xmodmap as `keysym 0xdead = Blah`
+xmodmap /etc/X11/Xmodmap
