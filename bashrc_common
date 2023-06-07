@@ -6,8 +6,12 @@ HISTCONTROL=ignoreboth
 shopt -s histappend
 
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
-HISTSIZE=10000
-HISTFILESIZE=20000
+HISTSIZE=-1
+HISTFILESIZE=-1
+
+# check the window size after each command and, if necessary,
+# update the values of LINES and COLUMNS.
+shopt -s checkwinsize
 
 # If set, the pattern "**" used in a pathname expansion context will
 # match all files and zero or more directories and subdirectories.
@@ -25,39 +29,36 @@ if [ -x /usr/bin/dircolors ]; then
     alias egrep='egrep --color=auto'
 fi
 
+# goes in pair with /proc/sys/kernel/core_pattern containing /tmp/core.%E.%p.%t.%s
+ulimit -c unlimited
 
-export PATH="~/go/bin":${PATH}
+# ssh key
+# https://unix.stackexchange.com/questions/90853/how-can-i-run-ssh-add-automatically-without-a-password-prompt
+# see ~/.bash_profile
+
+export PATH=".:${PATH}"
+export PATH=$PATH:~/.local/bin
+export PATH=$PATH:~/local/bin
+
+# common unix
+alias chmox='chmod +x'
 
 # one letter shortcuts
 alias g='egrep'
 alias st='stat'
 alias ..='cd ..'
-# alias rm='trash'
+alias rm='trash'
 alias m12='make -j12'
 alias m='make -j12'
-alias n='ninja -j8'
+alias n='ninja -j12'
 alias d='docker'
-alias dc='docker-compose'
-
-# chmod
-alias chmox='chmox +x'
-alias chmor='chmox +r'
-alias chmow='chmox +w'
 
 # kill
 alias k9='kill -9'
 alias k15='kill -15'
 
-
-if [[ -n "${IS_DEBIAN}" ]] ; then
-export USE_APT=yep
-elif [[ -n "${IS_ARCH}" ]] ; then
-export USE_PACMAN=yep
-fi
-
 # apt
-if [[ -n "${USE_APT}" ]] ; then
-alias i='sudo apt install'
+alias i='sudo apt install -y'
 alias r='sudo apt remove'
 alias s='apt-cache search'
 alias update='sudo apt update'
@@ -68,68 +69,48 @@ alias purge='sudo apt-get purge'
 alias show='apt-cache show'
 alias list='dpkg-query -L'
 alias apt-origin='apt-file search'
-fi
-
-if [[ -n "${USE_PACMAN}" ]] ; then
-alias upgrade='pacman -Sy'
-alias update='pacman -Su'
-alias i='pacman -S'
-alias s='pacman -Ss'
-alias r='pacman -R'
-fi
 
 # python
 alias py='python3'
+alias python='python3'
 alias ipy='ipython3'
 alias opensimplehttpserver='python3 -m http.server 8000'
 alias opensimpleftpserver='python3 -m pyftpdlib'
 alias rmpyc='find . -name "*.pyc" -exec rm -rf {} \;'
-alias pip='python -m pip'
 
 # git aliases
-alias gs='git status'
 alias ga='git add'
 alias gap='git add -p'
-alias gc='git commit'
-alias gl='git log --graph --decorate=auto --branches'
-alias gp='git push'
-alias gco='git checkout'
 alias gb='git branch'
+alias gc='git commit'
+alias gco='git checkout'
 alias gd='git diff'
 alias gdc='git diff --cached'
 alias gds='git diff --staged'
+alias gl='git log --graph --decorate=auto --branches'
+alias gp='git push'
+alias grc='git rebase --continue'
 alias grh='git reset HEAD'
+alias grs='git rebase --skip'
+alias gs='git status'
 alias gsec='git secret'
+# devops
+# terraform is an executable shell script containing
+# docker run -i -t hashicorp/terraform:light $@
+alias tf=terraform
+alias tg=terragrunt
 
-# svn stuff
-export SVN_EDITOR=nano
-alias svns='svn status'
-alias svna='svn add'
-alias svnc='svn commit'
-alias svnd='svn diff --diff-cmd colordiff'
-alias svndk='svn diff --diff-cmd "/c/Program Files/KDiff3/kdiff3.exe"'
-alias svnkdiff='svndk'
+# dev
+alias d=docker
+alias dc=docker-compose
 
 cdmkdir()
 {
     mkdir -p -- "$1" && cd -P -- "$1"
 }
-
 removebom()
 {
     input_file=$1
     output_file=$1.nobom
     sed '1s/^\xEF\xBB\xBF//' < ${input_file} > ${output_file}
 }
-
-
-#alias docker='docker.exe'
-alias d='docker'
-
-alias tf='terraform'
-
-# replace page up/down with home/end. Useful on laptops
-# xmodmap -e "keysym 0xff55 = Home"
-# xmodmap -e "keysym 0xff57 = End"
-# then these go to /etc/X11/Xmodmap as `keysym 0xdead = Blah`
-xmodmap /etc/X11/Xmodmap
