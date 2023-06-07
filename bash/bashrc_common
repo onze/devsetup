@@ -32,6 +32,12 @@ fi
 # goes in pair with /proc/sys/kernel/core_pattern containing /tmp/core.%E.%p.%t.%s
 ulimit -c unlimited
 
+
+SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
+source ${SCRIPT_DIR}/apt.sh
+source ${SCRIPT_DIR}/git.sh
+source ${SCRIPT_DIR}/python.sh
+
 # ssh key
 # https://unix.stackexchange.com/questions/90853/how-can-i-run-ssh-add-automatically-without-a-password-prompt
 # see ~/.bash_profile
@@ -57,50 +63,11 @@ alias d='docker'
 alias k9='kill -9'
 alias k15='kill -15'
 
-# apt
-alias i='sudo apt install -y'
-alias r='sudo apt remove'
-alias s='apt-cache search'
-alias update='sudo apt update'
-alias upgrade='sudo apt upgrade'
-alias distupgrade='sudo apt-get full-upgrade'
-alias autoremove='sudo apt-get autoremove'
-alias purge='sudo apt-get purge'
-alias show='apt-cache show'
-alias list='dpkg-query -L'
-alias apt-origin='apt-file search'
-
-# python
-alias py='python3'
-alias python='python3'
-alias ipy='ipython3'
-alias opensimplehttpserver='python3 -m http.server 8000'
-alias opensimpleftpserver='python3 -m pyftpdlib'
-alias rmpyc='find . -name "*.pyc" -exec rm -rf {} \;'
-
-# git aliases
-alias ga='git add'
-alias gap='git add -p'
-alias gb='git branch'
-alias gc='git commit'
-alias gco='git checkout'
-alias gd='git diff'
-alias gdc='git diff --cached'
-alias gds='git diff --staged'
-alias gl='git log --graph --decorate=auto --branches'
-alias gp='git push'
-alias grc='git rebase --continue'
-alias grh='git reset HEAD'
-alias grs='git rebase --skip'
-alias gs='git status'
-alias gsec='git secret'
 # devops
 # terraform is an executable shell script containing
 # docker run -i -t hashicorp/terraform:light $@
 alias tf=terraform
 alias tg=terragrunt
-
-# dev
 alias d=docker
 alias dc=docker-compose
 
