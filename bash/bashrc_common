@@ -6,8 +6,9 @@ HISTCONTROL=ignoreboth
 shopt -s histappend
 
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
-HISTSIZE=1000000
-HISTFILESIZE=10000000
+HISTSIZE=-1
+HISTFILESIZE=-1
+
 
 # check the window size after each command and, if necessary,
 # update the values of LINES and COLUMNS.
@@ -37,6 +38,9 @@ SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 source ${SCRIPT_DIR}/apt.sh
 source ${SCRIPT_DIR}/git.sh
 source ${SCRIPT_DIR}/python.sh
+source ${SCRIPT_DIR}/npm.sh
+
+
 
 # ssh key
 # https://unix.stackexchange.com/questions/90853/how-can-i-run-ssh-add-automatically-without-a-password-prompt
@@ -64,10 +68,9 @@ alias k9='kill -9'
 alias k15='kill -15'
 
 # devops
-# terraform is an executable shell script containing
-# docker run -i -t hashicorp/terraform:light $@
-alias tf=terraform
-alias tg=terragrunt
+# terraform is replaced by opentofu
+# docker pull ghcr.io/opentofu/opentofu:latest
+alias tf='docker run --workdir=/srv/workspace --mount type=bind,source=.,target=/srv/workspace ghcr.io/opentofu/opentofu:latest'
 alias d=docker
 alias dc=docker-compose
 
